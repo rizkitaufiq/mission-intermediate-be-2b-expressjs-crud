@@ -5,6 +5,7 @@ const bcrypt = require("bcrypt");
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     static associate(models) {}
+
     // static async getAllUsers() {
     //   return await sequelize.query("SELECT * FROM users", {
     //     type: Sequelize.QueryTypes.SELECT,

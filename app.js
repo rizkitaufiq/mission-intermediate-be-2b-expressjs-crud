@@ -12,9 +12,9 @@ app.use(express.json());
 // app.use(bodyParser.json());
 app.use("/users", usersRouter);
 
-app.use("/", (req, res, next) => {
-  res.send("Hallo World");
-});
+// app.use("/", (req, res, next) => {
+//   res.send("Hallo World");
+// });
 
 sequelize
   .authenticate()
